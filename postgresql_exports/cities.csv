@@ -1,4 +1,4 @@
-"id","geonameid","name","latitude","longitude","population","country_code"
+"_id","geonameid","name","latitude","longitude","population","country_code"
 1,"3040051","les Escaldes",42.50729,1.53414,15853,"AD"
 2,"3041563","Andorra la Vella",42.50779,1.52109,20430,"AD"
 3,"290594","Umm al Qaywayn",25.56473,55.55517,44411,"AE"

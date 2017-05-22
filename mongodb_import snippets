@@ -1,0 +1,5 @@
+mongoimport --db=geogutenberg_development --file=/home/mads/projects/geogutenberg_data/postgresql_exports/cities.csv --type=csv --headerline
+
+
+
+Mongo::City.where(:loc => {"$near" => loc, "$maxDistance" => 20 / 111.12}).to_a.map &:name
